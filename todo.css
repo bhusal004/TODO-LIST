@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0px;
+  ;
+}
+#main-container {
+    padding-top:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:900;
+    flex-direction:column;
+    width:100%;
+}
+.inp_btn-container{ 
+    margin-block:10px;
+} 
+.inp_btn-container input{
+    padding:7px 7px;
+}
+.inp_btn-container input[type="text"]{
+    text-transform:capitalize;
+    width:250px;
+    border:none;
+    background-color:rgb(225, 223, 223);
+    color:black;
+    font-weight:200;
+    border-radius:4px;
+    outline:none;
+      padding:7px 7px;
+    
+    
+}
+.inp_btn-container input[type="button"]:active{
+    background-color:rgb(96, 210, 105);
+
+}
+.inp_btn-container input[type="button"]{
+    background-color:rgb(27, 172, 19);
+    border:none;
+    color:white;
+    border-radius:4px;
+    transition:0.9s;
+}
+.editbtn{
+    background-color:transparent;
+    border:none;
+    color:red;
+     font-size:11px;
+     cursor:pointer;
+    font-weight:bold;
+    padding-right:0 10px;
+    
+
+}
+.delbtn{
+    background-color:transparent;
+    border:none;
+    color:red;
+   
+    font-size:11px;
+    cursor:pointer;
+    font-weight:bold;
+    padding: 0 10px;
+    
+}
+.inputafteradd{
+    text-transform:capitalize;
+    width:220px;
+    border:none;
+     padding:4px;
+    color:black;
+    font-weight:200;
+    border-radius:2px;
+    outline:none;
+    overflow:hidden;
+   
+    
+}
+.list_series{
+    border-radius:4px;
+    border:1px solid black;
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+.list-container
+{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
